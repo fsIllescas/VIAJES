@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horizonte Viajes - Contacto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header>
+    <h2>HORIZONTE VIAJES</h2>
+
+    <nav>
+        <a href="VIAJES.html" target="_blank">Inicio</a>
+        <a href="DESTINOS.html" target="_blank">Destinos</a>
+        <a href="CONTACTOS.html" target="_blank">Contacto</a>
+    </nav>
+</header>
+
+<section class="contacto">
+
+    <h1>CONTACTA CON NOSOTROS</h1>
+
+    <p>
+        Estamos listos para organizar tu próximo viaje
+    </p>
+
+    <form id="formulario">
+
+        <label>Nombre completo:</label>
+
+        <input
+            type="text"
+            id="nombre"
+            placeholder="Escribe tu nombre"
+            required>
+
+        <label>Correo electrónico:</label>
+
+        <input
+            type="email"
+            id="correo"
+            placeholder="Escribe tu correo"
+            required>
+
+        <label>Selecciona tu destino:</label>
+
+        <select id="destino" required>
+
+            <option value="">Selecciona un destino</option>
+            <option>Montañas</option>
+            <option>Playas</option>
+            <option>Aventura</option>
+
+        </select>
+
+        <label>Mensaje:</label>
+
+        <textarea
+            id="mensaje"
+            placeholder="Escribe tu mensaje">
+        </textarea>
+
+        <button type="submit">
+            Enviar mensaje
+        </button>
+
+    </form>
+
+    <p id="respuesta"></p>
+
+</section>
+
+<footer>
+    <h3>HORIZONTE VIAJES</h3>
+    <p>El comienzo de una gran aventura.</p>
+    <p>Correo: hola@horizonteviajes.com</p>
+    <p>Cuenca - Ecuador</p>
+    <p>2026 Horizonte Viajes</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
